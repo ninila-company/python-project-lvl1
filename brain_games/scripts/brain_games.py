@@ -1,3 +1,4 @@
+#!/urs/bin/env python3.8
 def main():
     print("Welcome to the Brain Games!")
 
