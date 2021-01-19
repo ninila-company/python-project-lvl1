@@ -26,7 +26,8 @@ def check_even():
         print('Question: 7')
         answer_three = prompt.string('Your answer: ').lower()
         if answer_three != 'no':
-            print(f"{answer_three} is wrong answer ;(. Correct answer was 'no'.")
+            print(f"{answer_three} is wrong answer ;(. "
+                  f"Correct answer was 'no'.")
             print(f"Let's try again, {name}!")
             break
         else:
