@@ -2,5 +2,4 @@
 .vscode/
 .idea/
 __pycache__
-dist/*.whl
-dist/*.gz
+dist
