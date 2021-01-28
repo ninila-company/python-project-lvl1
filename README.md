@@ -9,3 +9,6 @@
 
 #### Демонстрация третьей игры
 [Demonstration](https://asciinema.org/a/dpH8qIHd6Dqf9o4Rrr5XAPhZK)
+
+#### Демонстрация четвертой игры
+[Demonstration](https://asciinema.org/a/FiEOp9nwea4qyZsdZ01vg1o5u)
