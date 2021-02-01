@@ -30,7 +30,8 @@ def arithmetic_progression():
         if answer == int(list_value[random_number]):
             print('Correct')
         else:
-            print(f"{answer} is wrong answer ;(. Correct answer was 'no'.")
+            print(f"\"{answer}\" is wrong answer ;(. Correct answer was "
+                  f"\"{list_value[random_number]}\".")
             print(f"Let's try again, {name}!")
             break
     else:
