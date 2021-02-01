@@ -18,7 +18,8 @@ def check_even():
 
         answer_one = prompt.string('Your answer: ').lower()
         if answer_one != parity_check(number_random):
-            print(f"{answer_one} is wrong answer ;(. Correct answer was 'no'.")
+            print(f"\"{answer_one}\" is wrong answer ;(."
+                  f"Correct answer was \"{parity_check(number_random)}\".")
             print(f"Let's try again, {name}!")
             break
         else:
