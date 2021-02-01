@@ -19,8 +19,8 @@ def expressions():
             question_addition = number_random_1 + number_random_2
             answer = prompt.integer('Your answer: ')
             if answer != question_addition:
-                print(f"{answer} is wrong answer ;(. "
-                      f"Correct answer was {answer}.")
+                print(f"\"{answer}\" is wrong answer ;(. "
+                      f"Correct answer was \"{question_addition}\".")
                 print(f"Let's try again, {name}!")
                 break
             else:
@@ -31,8 +31,8 @@ def expressions():
             question_subtraction = number_random_1 - number_random_2
             answer = prompt.integer('Your answer: ')
             if answer != question_subtraction:
-                print(f"{answer} is wrong answer ;(. "
-                      f"Correct answer was {answer}.")
+                print(f"\"{answer}\" is wrong answer ;(. "
+                      f"Correct answer was \"{question_subtraction}\".")
                 print(f"Let's try again, {name}!")
                 break
             else:
@@ -43,8 +43,8 @@ def expressions():
             question_multiplication = number_random_1 * number_random_2
             answer = prompt.integer('Your answer: ')
             if answer != question_multiplication:
-                print(f"{answer} is wrong answer ;(. "
-                      f"Correct answer was {answer}.")
+                print(f"\"{answer}\" is wrong answer ;(. "
+                      f"Correct answer was \"{question_multiplication}\".")
                 print(f"Let's try again, {name}!")
                 break
             else:
