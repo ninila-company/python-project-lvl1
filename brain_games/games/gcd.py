@@ -25,8 +25,9 @@ def greatest_common_factor():
 
         answer = prompt.integer('Your answer: ')
         if answer != check_divisors(number_one, number_two):
-            print(f"{answer} is wrong answer ;(. "
-                  f"Correct answer was {answer}.")
+            print(f"\"{answer}\" is wrong answer ;(. "
+                  f"Correct answer was "
+                  f"\"{check_divisors(number_one, number_two)}\".")
             print(f"Let's try again, {name}!")
             break
         else:
