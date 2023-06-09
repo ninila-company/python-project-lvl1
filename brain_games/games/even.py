@@ -2,6 +2,10 @@ import prompt
 import random
 
 
+def parity_check(number: int) -> str:
+    return 'yes' if number % 2 == 0 else 'no'
+
+
 def check_even():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -12,9 +16,6 @@ def check_even():
     while count < 3:
         number_random = random.randint(1, 100)
         print(f'Question: {number_random}')
-
-        def parity_check(number: int) -> str:
-            return 'yes' if number % 2 == 0 else 'no'
 
         answer = prompt.string('Your answer: ').lower()
         if answer != parity_check(number_random):
