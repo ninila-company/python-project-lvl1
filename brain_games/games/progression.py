@@ -18,8 +18,8 @@ def arithmetic_progression():
         new_lst = lst[:]
         new_lst[number] = '..'
         string = ' '.join(new_lst)
-        print(string)
-        return string
+        print(f'Question: {string}')
+        return f'Question: {string}'
 
     for value in progressions.values():
         random_number = random.randint(0, 9)
