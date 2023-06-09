@@ -20,7 +20,8 @@ def expressions():
         number_random_1 = random.randint(1, 10)
         number_random_2 = random.randint(1, 10)
 
-        question = f'{number_random_1} {operation_random} {number_random_2}'
+        question = f'Question: {number_random_1} {operation_random}'\
+                   f' {number_random_2}'
         print(question)
 
         match operation_random:
