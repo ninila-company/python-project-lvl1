@@ -19,7 +19,7 @@ def is_prime(number):
 def check_prime():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}')
+    print(f'Hello, {name}!')
     print('Answer "yes" if the number is prime, otherwise answer "no".')
 
     count = 0
@@ -34,8 +34,8 @@ def check_prime():
             print(f'Let\'s try again, {name}!')
             break
         else:
-            print('Correct')
+            print('Correct!')
             count += 1
 
     else:
-        print(f'Congratulations, {name}')
+        print(f'Congratulations, {name}!')

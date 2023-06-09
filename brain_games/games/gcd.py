@@ -15,7 +15,7 @@ def check_divisors(n1, n2):
 def greatest_common_factor():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}')
+    print(f'Hello, {name}!')
     print('Find the greatest common divisor of given numbers.')
 
     count = 0
@@ -32,8 +32,8 @@ def greatest_common_factor():
             print(f'Let\'s try again, {name}!')
             break
         else:
-            print('Correct')
+            print('Correct!')
             count += 1
 
     else:
-        print(f'Congratulations, {name}')
+        print(f'Congratulations, {name}!')

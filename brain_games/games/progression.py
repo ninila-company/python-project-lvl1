@@ -5,7 +5,7 @@ import random
 def arithmetic_progression():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}')
+    print(f'Hello, {name}!')
     print('What number is missing in the progression?')
 
     progressions = {
@@ -28,11 +28,11 @@ def arithmetic_progression():
 
         answer = prompt.integer('Your answer: ')
         if answer == int(list_value[random_number]):
-            print('Correct')
+            print('Correct!')
         else:
             print(f'"{answer}" is wrong answer ;(. Correct answer was '
                   f'"{list_value[random_number]}".')
             print(f'Let\'s try again, {name}!')
             break
     else:
-        print(f'Congratulations, {name}')
+        print(f'Congratulations, {name}!')

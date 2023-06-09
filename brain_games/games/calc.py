@@ -11,7 +11,7 @@ def input_messages(mes_1, mes_2, mes_3):
 def expressions():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}')
+    print(f'Hello, {name}!')
     print('What is the result of the expression?')
 
     count = 0
@@ -31,7 +31,7 @@ def expressions():
                     input_messages(answer, question_addition, name)
                     break
                 else:
-                    print('Correct')
+                    print('Correct!')
                     count += 1
 
             case '-':
@@ -41,7 +41,7 @@ def expressions():
                     input_messages(answer, question_subtraction, name)
                     break
                 else:
-                    print('Correct')
+                    print('Correct!')
                     count += 1
 
             case _:
@@ -51,7 +51,7 @@ def expressions():
                     input_messages(answer, question_multiplication, name)
                     break
                 else:
-                    print('Correct')
+                    print('Correct!')
                     count += 1
     else:
-        print(f'Congratulations, {name}')
+        print(f'Congratulations, {name}!')
